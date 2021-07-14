@@ -78,10 +78,10 @@ void loop()
     Serial.println(m.typical_particle_size); //Stampa sul monitor seriale il valore medio di spessore del particolato.
     Serial.println(); //Torna a capo.
   //COPIO VALORI NEGLI SPAZI DI MEMORIA.
-    a = m.nc_1p0; //Copio valore delle polveri PM 1.0 ricevuto dal sensore nello spazio di memoria "a";
-    b = m.nc_2p5; //Copio valore delle polveri PM 2.5 ricevuto dal sensore nello spazio di memoria "b";
-    c = m.nc_4p0; //Copio valore delle polveri PM 4.0 ricevuto dal sensore nello spazio di memoria "c";
-    d = m.nc_10p0; //Copio valore delle polveri PM 10.0 ricevuto dal sensore nello spazio di memoria "d";
+    a = m.nc_1p0; //Copio valore delle polveri PNC 1.0 ricevuto dal sensore nello spazio di memoria "a";
+    b = m.nc_2p5; //Copio valore delle polveri PNC 2.5 ricevuto dal sensore nello spazio di memoria "b";
+    c = m.nc_4p0; //Copio valore delle polveri PNC 4.0 ricevuto dal sensore nello spazio di memoria "c";
+    d = m.nc_10p0; //Copio valore delle polveri PNC 10.0 ricevuto dal sensore nello spazio di memoria "d";
   delay(1000); //Aspetta 1 secondo.
   Blynk.run(); //Funzione per app BLYNK.
   timer.run(); //Funzione per app BLYNK.
