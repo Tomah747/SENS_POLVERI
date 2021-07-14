@@ -1,5 +1,5 @@
 # SENS_POLVERI  
-Il programma in questione serve per la misurazione della concentrazione numerica delle polveri(Da 10μm a 1μm in un cm cubo)tramite un Sensirion modello SPS30,e riportarle,tramite WI-FI,sul server di BLYNK.com che provedera allo storing e al processing dei sudetti dati.
+Il programma SENS_POLVERI,serve per la misurazione della concentrazione numerica delle polveri(Da 10μm a 1μm in un cm cubo)tramite un sensore Sensirion, modello SPS30,e riportarle,tramite scheda wireless ESP32,sul server di BLYNK.com che provedera allo storing,al processing e all'interfecing dei sudetti dati su APP BLYNK.
 Si nota che per lo svolgimento del programma OPEN-SOURCE vi è bisogno dell'app BLYNK versione OLD,già configurata,perchè richiede codici di autenticazione generati dall'app.
 Inoltre,si può osservare,viste le carateristiche del sensore,che esso possa misurare i PNC o Particle Number Concentration da 0.5μm a 10 μm per cm3, i PM o Particle Matter da 1.0μm a 10μm per cm3,e la grandezza media di una particella.
 Il programma prende i dati dal sensore tramite questo comando: "m.nc_10p0" specificamente,esso,va a richiedere la quantità di PNC,di grandezza 10μm,nell'aria analizzata.
